@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inditial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <center><h1>Random</h1></center>
+        <p id="demo">0</p>
+        <p id="demo1">0</p>
+        <p id="demo2">0</p>
+       <center><button id="Button">random</button></center>
+       <script >
+        document.getElementById("Button").addEventListener("click",function(){
+            document.getElementById("demo").innerHTML =
+            Math.floor(Math.random() * 6) +1;
+        });
+        document.getElementById("Button").addEventListener("click",function(){
+            document.getElementById("demo1").innerHTML =
+            Math.floor(Math.random() * 6) +1;
+        });
+        document.getElementById("Button").addEventListener("click",function(){
+            document.getElementById("demo2").innerHTML =
+            Math.floor(Math.random() * 6) +1;
+        });
+       </script>
+       
+
+        
+              
+        </body>
+</html> 
